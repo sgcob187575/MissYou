@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121705482424C4880053D730 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 121705472424C4880053D730 /* music */; };
+		1217054A2424C5690053D730 /* MusicBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121705492424C5690053D730 /* MusicBar.swift */; };
+		1230C38D242DFDC800FF5AAD /* LinearGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C38A242DFDC700FF5AAD /* LinearGradientExtension.swift */; };
+		1230C38E242DFDC800FF5AAD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C38B242DFDC700FF5AAD /* UIColorExtension.swift */; };
+		1230C38F242DFDC800FF5AAD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C38C242DFDC800FF5AAD /* ColorExtension.swift */; };
+		12561A60242203B700CBDE14 /* ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12561A5F242203B700CBDE14 /* ActorView.swift */; };
+		12561A62242203CC00CBDE14 /* ActorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12561A61242203CC00CBDE14 /* ActorRow.swift */; };
+		12561A642422048E00CBDE14 /* ActorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12561A632422048E00CBDE14 /* ActorDetailView.swift */; };
+		12561A6624234A5700CBDE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12561A6524234A5700CBDE14 /* Main.storyboard */; };
+		12802E1C241F10FE008E1F4D /* jf-openhuninn-1.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12802E1B241F10FE008E1F4D /* jf-openhuninn-1.0.ttf */; };
 		12B8F0E5241CCC5B000BECFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F0E4241CCC5B000BECFF /* AppDelegate.swift */; };
 		12B8F0E7241CCC5B000BECFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F0E6241CCC5B000BECFF /* SceneDelegate.swift */; };
 		12B8F0E9241CCC5B000BECFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F0E8241CCC5B000BECFF /* ContentView.swift */; };
@@ -15,6 +25,13 @@
 		12B8F0F1241CCC5D000BECFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B8F0EF241CCC5D000BECFF /* LaunchScreen.storyboard */; };
 		12B8F0FC241CCC5D000BECFF /* MissYouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F0FB241CCC5D000BECFF /* MissYouTests.swift */; };
 		12B8F107241CCC5D000BECFF /* MissYouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F106241CCC5D000BECFF /* MissYouUITests.swift */; };
+		12B8F117241CCCF5000BECFF /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F116241CCCF5000BECFF /* EpisodeView.swift */; };
+		12B8F119241CCD08000BECFF /* EpisodeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F118241CCD08000BECFF /* EpisodeRow.swift */; };
+		12B8F11B241CD438000BECFF /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F11A241CD438000BECFF /* Dataset.swift */; };
+		12B8F11E241CDD72000BECFF /* EpDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F11D241CDD72000BECFF /* EpDetailView.swift */; };
+		12CD8D84242DD31C00C88A9A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD8D83242DD31C00C88A9A /* StartViewController.swift */; };
+		12CD8D86242DDF4700C88A9A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD8D85242DDF4700C88A9A /* TextView.swift */; };
+		12CD8D88242DDFA000C88A9A /* TextPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD8D87242DDFA000C88A9A /* TextPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121705472424C4880053D730 /* music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = music; sourceTree = "<group>"; };
+		121705492424C5690053D730 /* MusicBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBar.swift; sourceTree = "<group>"; };
+		1230C38A242DFDC700FF5AAD /* LinearGradientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientExtension.swift; sourceTree = "<group>"; };
+		1230C38B242DFDC700FF5AAD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		1230C38C242DFDC800FF5AAD /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		12561A5F242203B700CBDE14 /* ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorView.swift; sourceTree = "<group>"; };
+		12561A61242203CC00CBDE14 /* ActorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorRow.swift; sourceTree = "<group>"; };
+		12561A632422048E00CBDE14 /* ActorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetailView.swift; sourceTree = "<group>"; };
+		12561A6524234A5700CBDE14 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		12802E1B241F10FE008E1F4D /* jf-openhuninn-1.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.0.ttf"; sourceTree = "<group>"; };
 		12B8F0E1241CCC5B000BECFF /* MissYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B8F0E4241CCC5B000BECFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12B8F0E6241CCC5B000BECFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +76,13 @@
 		12B8F102241CCC5D000BECFF /* MissYouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MissYouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B8F106241CCC5D000BECFF /* MissYouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissYouUITests.swift; sourceTree = "<group>"; };
 		12B8F108241CCC5D000BECFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B8F116241CCCF5000BECFF /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EpisodeView.swift; path = MissYou/EpisodeView.swift; sourceTree = "<group>"; };
+		12B8F118241CCD08000BECFF /* EpisodeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRow.swift; sourceTree = "<group>"; };
+		12B8F11A241CD438000BECFF /* Dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		12B8F11D241CDD72000BECFF /* EpDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpDetailView.swift; sourceTree = "<group>"; };
+		12CD8D83242DD31C00C88A9A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		12CD8D85242DDF4700C88A9A /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		12CD8D87242DDFA000C88A9A /* TextPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +113,22 @@
 		12B8F0D8241CCC5B000BECFF = {
 			isa = PBXGroup;
 			children = (
+				1230C38C242DFDC800FF5AAD /* ColorExtension.swift */,
+				1230C38A242DFDC700FF5AAD /* LinearGradientExtension.swift */,
+				1230C38B242DFDC700FF5AAD /* UIColorExtension.swift */,
+				121705492424C5690053D730 /* MusicBar.swift */,
+				121705472424C4880053D730 /* music */,
+				12B8F11D241CDD72000BECFF /* EpDetailView.swift */,
+				12561A6524234A5700CBDE14 /* Main.storyboard */,
+				12CD8D87242DDFA000C88A9A /* TextPreview.swift */,
+				12CD8D85242DDF4700C88A9A /* TextView.swift */,
+				12CD8D83242DD31C00C88A9A /* StartViewController.swift */,
+				12B8F116241CCCF5000BECFF /* EpisodeView.swift */,
+				12561A5F242203B700CBDE14 /* ActorView.swift */,
+				12561A632422048E00CBDE14 /* ActorDetailView.swift */,
+				12561A61242203CC00CBDE14 /* ActorRow.swift */,
+				12B8F11A241CD438000BECFF /* Dataset.swift */,
+				12B8F118241CCD08000BECFF /* EpisodeRow.swift */,
 				12B8F0E3241CCC5B000BECFF /* MissYou */,
 				12B8F0FA241CCC5D000BECFF /* MissYouTests */,
 				12B8F105241CCC5D000BECFF /* MissYouUITests */,
@@ -99,6 +149,7 @@
 		12B8F0E3241CCC5B000BECFF /* MissYou */ = {
 			isa = PBXGroup;
 			children = (
+				12802E1B241F10FE008E1F4D /* jf-openhuninn-1.0.ttf */,
 				12B8F0E4241CCC5B000BECFF /* AppDelegate.swift */,
 				12B8F0E6241CCC5B000BECFF /* SceneDelegate.swift */,
 				12B8F0E8241CCC5B000BECFF /* ContentView.swift */,
@@ -240,6 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121705482424C4880053D730 /* music in Resources */,
+				12802E1C241F10FE008E1F4D /* jf-openhuninn-1.0.ttf in Resources */,
+				12561A6624234A5700CBDE14 /* Main.storyboard in Resources */,
 				12B8F0F1241CCC5D000BECFF /* LaunchScreen.storyboard in Resources */,
 				12B8F0EE241CCC5D000BECFF /* Preview Assets.xcassets in Resources */,
 				12B8F0EB241CCC5D000BECFF /* Assets.xcassets in Resources */,
@@ -267,9 +321,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B8F11B241CD438000BECFF /* Dataset.swift in Sources */,
+				12561A642422048E00CBDE14 /* ActorDetailView.swift in Sources */,
+				12561A62242203CC00CBDE14 /* ActorRow.swift in Sources */,
+				12CD8D86242DDF4700C88A9A /* TextView.swift in Sources */,
+				12B8F119241CCD08000BECFF /* EpisodeRow.swift in Sources */,
+				12CD8D88242DDFA000C88A9A /* TextPreview.swift in Sources */,
+				1230C38F242DFDC800FF5AAD /* ColorExtension.swift in Sources */,
+				12B8F117241CCCF5000BECFF /* EpisodeView.swift in Sources */,
+				12CD8D84242DD31C00C88A9A /* StartViewController.swift in Sources */,
+				1230C38D242DFDC800FF5AAD /* LinearGradientExtension.swift in Sources */,
 				12B8F0E5241CCC5B000BECFF /* AppDelegate.swift in Sources */,
+				12B8F11E241CDD72000BECFF /* EpDetailView.swift in Sources */,
+				1230C38E242DFDC800FF5AAD /* UIColorExtension.swift in Sources */,
 				12B8F0E7241CCC5B000BECFF /* SceneDelegate.swift in Sources */,
+				12561A60242203B700CBDE14 /* ActorView.swift in Sources */,
 				12B8F0E9241CCC5B000BECFF /* ContentView.swift in Sources */,
+				1217054A2424C5690053D730 /* MusicBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

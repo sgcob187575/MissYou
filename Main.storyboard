@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16095" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16084.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="w5T-ys-nhP">
+            <objects>
+                <viewController storyboardIdentifier="李子維" id="4TZ-Fg-MQT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gh7-BJ-cUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="李子維介紹" translatesAutoresizingMaskIntoConstraints="NO" id="cjd-Ex-Aod">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cjd-Ex-Aod" secondAttribute="bottom" id="45U-eT-GhO"/>
+                            <constraint firstAttribute="trailing" secondItem="cjd-Ex-Aod" secondAttribute="trailing" id="BYQ-3A-Mgn"/>
+                            <constraint firstItem="cjd-Ex-Aod" firstAttribute="leading" secondItem="Gh7-BJ-cUQ" secondAttribute="leading" id="Ufi-T7-4WB"/>
+                            <constraint firstItem="cjd-Ex-Aod" firstAttribute="top" secondItem="Gh7-BJ-cUQ" secondAttribute="top" id="qNm-bH-qwX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gaf-3j-VeW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="La4-5f-feq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-245" y="19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pRt-kk-HcP">
+            <objects>
+                <viewController storyboardIdentifier="黃雨萱" id="6TC-ro-xtN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oEb-t8-DdV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="黃雨萱介紹" translatesAutoresizingMaskIntoConstraints="NO" id="4is-PJ-N4w">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4is-PJ-N4w" firstAttribute="top" secondItem="oEb-t8-DdV" secondAttribute="top" id="8YI-m0-vyp"/>
+                            <constraint firstItem="4is-PJ-N4w" firstAttribute="leading" secondItem="oEb-t8-DdV" secondAttribute="leading" id="Qiv-NE-5Yo"/>
+                            <constraint firstAttribute="bottom" secondItem="4is-PJ-N4w" secondAttribute="bottom" id="gMZ-B2-maM"/>
+                            <constraint firstAttribute="trailing" secondItem="4is-PJ-N4w" secondAttribute="trailing" id="iUm-1M-fkZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cI7-yM-eNm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OzF-UW-zcv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365" y="19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Iak-2A-l7G">
+            <objects>
+                <viewController storyboardIdentifier="陳韻如" id="zle-Hu-4Ug" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6I4-V4-NgL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="陳韻如介紹" translatesAutoresizingMaskIntoConstraints="NO" id="NDB-ie-Ao9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="NDB-ie-Ao9" secondAttribute="bottom" id="5Dl-hZ-5gk"/>
+                            <constraint firstItem="NDB-ie-Ao9" firstAttribute="top" secondItem="6I4-V4-NgL" secondAttribute="top" id="7JA-iK-F30"/>
+                            <constraint firstItem="NDB-ie-Ao9" firstAttribute="leading" secondItem="6I4-V4-NgL" secondAttribute="leading" id="bkV-7m-ohl"/>
+                            <constraint firstAttribute="trailing" secondItem="NDB-ie-Ao9" secondAttribute="trailing" id="nKG-ag-Nt5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="M5a-pE-DoF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jP0-xv-fCw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8nS-Zt-CB6">
+            <objects>
+                <viewController storyboardIdentifier="王詮勝" id="F0z-dU-0Fm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M6b-H6-xTL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="王詮勝介紹" translatesAutoresizingMaskIntoConstraints="NO" id="hC6-h6-WnW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hC6-h6-WnW" firstAttribute="top" secondItem="M6b-H6-xTL" secondAttribute="top" id="Cfy-h5-F0C"/>
+                            <constraint firstAttribute="trailing" secondItem="hC6-h6-WnW" secondAttribute="trailing" id="OYJ-dS-cVE"/>
+                            <constraint firstItem="hC6-h6-WnW" firstAttribute="leading" secondItem="M6b-H6-xTL" secondAttribute="leading" id="idL-rZ-0DB"/>
+                            <constraint firstAttribute="bottom" secondItem="hC6-h6-WnW" secondAttribute="bottom" id="uUX-az-fQ2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xcv-sF-ikE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oxs-jT-UC9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1597" y="19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QBc-lC-t9Z">
+            <objects>
+                <viewController storyboardIdentifier="吳文磊" id="eb5-DG-chh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tCn-Jh-1Mc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="吳文磊介紹" translatesAutoresizingMaskIntoConstraints="NO" id="01X-oI-WIW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JdF-f5-nDa">
+                                <rect key="frame" x="5" y="532" width="265" height="280"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18O-9P-Rfi">
+                                        <rect key="frame" x="14" y="8" width="237" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">吳文磊/ 張翰 飾
+韻如的舅舅，32唱片行的老闆
+
+擁有浪漫不羈的藝術家性格，卻沒有藝術家的偏執嚴格，因此這樣也好、那樣也好，只要日子過得去，夢想能走一天就算一天。所以他開了一間32號唱片行，也不管一天有沒有三五位顧客，成天放著他喜歡的古典樂、爵士樂，溫柔地生活。</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <string key="userLabel">吳文磊/ 張翰 飾 韻如的舅舅，32唱片行的老闆  擁有浪漫不羈的藝術家性格，卻沒有藝術家的偏執嚴格，因此這樣也好、那樣也好，只要日子過得去，夢想能走一天就算一天。所以他開了一間32號唱片行，也不管一天有沒有三五位顧客，成天放著他喜歡的古典樂、爵士樂，溫柔地生活。</string>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.85092997326212538" green="0.94455766766332827" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="Kve-85-Cnb"/>
+                                    <constraint firstAttribute="width" constant="265" id="j35-Gz-Pb3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JdF-f5-nDa" firstAttribute="bottom" secondItem="Onx-IX-tQK" secondAttribute="bottom" constant="-50" id="7T5-7t-ycW"/>
+                            <constraint firstItem="01X-oI-WIW" firstAttribute="leading" secondItem="tCn-Jh-1Mc" secondAttribute="leading" id="JWE-17-H3b"/>
+                            <constraint firstItem="01X-oI-WIW" firstAttribute="height" secondItem="tCn-Jh-1Mc" secondAttribute="height" id="T8T-Yb-7Fq"/>
+                            <constraint firstItem="JdF-f5-nDa" firstAttribute="leading" secondItem="Onx-IX-tQK" secondAttribute="leading" constant="5" id="dz6-DI-urS"/>
+                            <constraint firstItem="01X-oI-WIW" firstAttribute="top" secondItem="tCn-Jh-1Mc" secondAttribute="top" id="v3n-Oh-13m"/>
+                            <constraint firstAttribute="trailing" secondItem="01X-oI-WIW" secondAttribute="trailing" id="zOS-D7-pxw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Onx-IX-tQK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nmu-rD-GVc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2227.536231884058" y="18.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CyB-ID-pgb">
+            <objects>
+                <viewController storyboardIdentifier="莫俊傑" id="BO2-od-Z4Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RNt-Wc-ygu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="莫俊傑介紹" translatesAutoresizingMaskIntoConstraints="NO" id="ITR-Wk-49c">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ITR-Wk-49c" secondAttribute="bottom" id="ZzC-iB-Y3a"/>
+                            <constraint firstAttribute="trailing" secondItem="ITR-Wk-49c" secondAttribute="trailing" id="cmc-GE-dfu"/>
+                            <constraint firstItem="ITR-Wk-49c" firstAttribute="top" secondItem="RNt-Wc-ygu" secondAttribute="top" id="nCE-wF-a3e"/>
+                            <constraint firstItem="ITR-Wk-49c" firstAttribute="leading" secondItem="RNt-Wc-ygu" secondAttribute="leading" id="qUx-R1-oqf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LRO-42-JDR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rit-u7-oIo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2891" y="19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ypX-yJ-JGL">
+            <objects>
+                <viewController storyboardIdentifier="吳瑛嬋" id="moN-wZ-Eia" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="954-Hj-MKn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="吳瑛嬋介紹" translatesAutoresizingMaskIntoConstraints="NO" id="IDj-rf-3mq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kkl-JX-Txx">
+                                <rect key="frame" x="5" y="532" width="265" height="280"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Tf-6F-eAd">
+                                        <rect key="frame" x="14" y="8" width="237" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">吳瑛嬋/嚴藝文飾 韻如的媽媽
+嫁入傳統家庭的瑛嬋被婆家嫌棄了好多年,在生了一個兒子後,沒多久丈夫卻在外頭有了别的女人.....為了獲得小孩的扶養權·瑛嬋開始出外工作·靠著經營一家陪酒吃飯的卡拉OK店獨力撫養著韻如與思源・</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <string key="userLabel">韻如的媽媽
+嫁入傳統家庭的瑛嬋被婆家嫌棄了好多年,在生了一個兒子後,沒多久丈夫卻在外頭有了别的女人.....為了獲得小孩的扶養權·瑛嬋開始出外工作·靠著經營一家陪酒吃飯的卡拉OK店獨力撫養著韻如與思源・</string>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.85092997329999998" green="0.94455766770000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="oS9-hG-SHu"/>
+                                    <constraint firstAttribute="width" constant="265" id="vxb-R5-X0Q"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IDj-rf-3mq" secondAttribute="trailing" id="4g9-Al-e3Q"/>
+                            <constraint firstItem="kkl-JX-Txx" firstAttribute="bottom" secondItem="UZC-nQ-Ltv" secondAttribute="bottom" constant="-50" id="C8n-j6-ecW"/>
+                            <constraint firstItem="kkl-JX-Txx" firstAttribute="leading" secondItem="UZC-nQ-Ltv" secondAttribute="leading" constant="5" id="Drr-Eh-Cla"/>
+                            <constraint firstItem="IDj-rf-3mq" firstAttribute="height" secondItem="954-Hj-MKn" secondAttribute="height" id="j8O-1u-gHF"/>
+                            <constraint firstItem="IDj-rf-3mq" firstAttribute="top" secondItem="954-Hj-MKn" secondAttribute="top" id="rNO-tJ-Gba"/>
+                            <constraint firstItem="IDj-rf-3mq" firstAttribute="leading" secondItem="954-Hj-MKn" secondAttribute="leading" id="wVV-07-46U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UZC-nQ-Ltv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mdx-7M-Ne2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3522" y="19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OZb-rN-D4X">
+            <objects>
+                <viewController storyboardIdentifier="陳思源" id="DAS-3w-21J" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CcV-es-bwc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="陳思源介紹" translatesAutoresizingMaskIntoConstraints="NO" id="B9C-Zn-rLd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ID1-1x-vSt">
+                                <rect key="frame" x="5" y="532" width="265" height="280"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="陳思源/大鶴飾 韻如的弟弟 正值叛逆期的中二少年,對於家中的狀況·姊姑與母親對他的付出·思源不是沒看在眼裡,但由於自己年紀還小・無力改變現狀・思源總有說不出口的慎怒·他氣自己的存在讓母親吃了很多苦,讓姊姊受了很 多委屈....." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5d-vm-PHj">
+                                        <rect key="frame" x="14" y="8" width="237" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <string key="userLabel">韻如的媽媽
+嫁入傳統家庭的瑛嬋被婆家嫌棄了好多年,在生了一個兒子後,沒多久丈夫卻在外頭有了别的女人.....為了獲得小孩的扶養權·瑛嬋開始出外工作·靠著經營一家陪酒吃飯的卡拉OK店獨力撫養著韻如與思源・</string>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.85092997329999998" green="0.94455766770000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="YXU-Ar-ZSH"/>
+                                    <constraint firstAttribute="width" constant="265" id="kcv-3l-0y2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ID1-1x-vSt" firstAttribute="leading" secondItem="b5W-2k-8Ku" secondAttribute="leading" constant="5" id="6mb-Pl-oFl"/>
+                            <constraint firstItem="B9C-Zn-rLd" firstAttribute="leading" secondItem="CcV-es-bwc" secondAttribute="leading" id="MsS-wG-cGa"/>
+                            <constraint firstItem="B9C-Zn-rLd" firstAttribute="height" secondItem="CcV-es-bwc" secondAttribute="height" id="P9p-hQ-i0a"/>
+                            <constraint firstAttribute="trailing" secondItem="B9C-Zn-rLd" secondAttribute="trailing" id="adS-cJ-Hmt"/>
+                            <constraint firstItem="B9C-Zn-rLd" firstAttribute="top" secondItem="CcV-es-bwc" secondAttribute="top" id="qax-Tf-ywr"/>
+                            <constraint firstItem="ID1-1x-vSt" firstAttribute="bottom" secondItem="b5W-2k-8Ku" secondAttribute="bottom" constant="-50" id="woA-uR-V38"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b5W-2k-8Ku"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JnQ-vN-n1i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4146" y="19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bNn-Xw-wWc">
+            <objects>
+                <viewController storyboardIdentifier="謝芝齊" id="w1r-f6-AZQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AlT-FB-eFV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="謝芝齊介紹" translatesAutoresizingMaskIntoConstraints="NO" id="EbN-d9-a9r">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q4W-Wh-h8C">
+                                <rect key="frame" x="5" y="532" width="265" height="280"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="謝芝齊/顏毓麟飾 子維和俊傑的同班同學 身為家中長子,從國小,國中到高中·一直都是老師眼中的模範生・課業優良,謙和有禮・因為太過乖乘牌而絕是獨來獨往·卻也與同學們相處融洽・並未因為班長的身分而自視甚高。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3n9-kl-Ej7">
+                                        <rect key="frame" x="14" y="8" width="237" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <string key="userLabel">韻如的媽媽
+嫁入傳統家庭的瑛嬋被婆家嫌棄了好多年,在生了一個兒子後,沒多久丈夫卻在外頭有了别的女人.....為了獲得小孩的扶養權·瑛嬋開始出外工作·靠著經營一家陪酒吃飯的卡拉OK店獨力撫養著韻如與思源・</string>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.85092997329999998" green="0.94455766770000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="PaQ-nL-E4L"/>
+                                    <constraint firstAttribute="height" constant="280" id="oCk-uJ-FV6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EbN-d9-a9r" secondAttribute="trailing" id="3j5-MB-uSc"/>
+                            <constraint firstItem="q4W-Wh-h8C" firstAttribute="bottom" secondItem="AnA-6u-eij" secondAttribute="bottom" constant="-50" id="EGl-ZA-5va"/>
+                            <constraint firstItem="q4W-Wh-h8C" firstAttribute="leading" secondItem="AnA-6u-eij" secondAttribute="leading" constant="5" id="aC1-62-Fx0"/>
+                            <constraint firstItem="EbN-d9-a9r" firstAttribute="top" secondItem="AlT-FB-eFV" secondAttribute="top" id="b7C-ws-gzB"/>
+                            <constraint firstItem="EbN-d9-a9r" firstAttribute="leading" secondItem="AlT-FB-eFV" secondAttribute="leading" id="hoh-B3-4pa"/>
+                            <constraint firstItem="EbN-d9-a9r" firstAttribute="height" secondItem="AlT-FB-eFV" secondAttribute="height" id="w47-vf-bUF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AnA-6u-eij"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVi-1I-YbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4800" y="19"/>
+        </scene>
+        <!--Start View Controller-->
+        <scene sceneID="CP7-vB-32b">
+            <objects>
+                <viewController storyboardIdentifier="TextView" id="eRM-2q-hjx" customClass="StartViewController" customModule="MissYou" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7TF-tt-LXC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RcI-4e-OH4">
+                                <rect key="frame" x="0.0" y="67" width="414" height="780"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="o83-zs-HiV" kind="embed" destinationCreationSelector="showView:" id="3hF-Hc-NFE"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="et0-nl-8Kv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yVG-KO-aGD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="547.82608695652175" y="-751.33928571428567"/>
+        </scene>
+        <!--Hosting Controller-->
+        <scene sceneID="Kkz-zi-lut">
+            <objects>
+                <hostingController id="o83-zs-HiV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cHO-3f-yZZ"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iPF-6t-U3k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1380" y="-1204"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="吳文磊介紹" width="558" height="756"/>
+        <image name="吳瑛嬋介紹" width="558" height="756"/>
+        <image name="李子維介紹" width="888" height="1198"/>
+        <image name="王詮勝介紹" width="882" height="1200"/>
+        <image name="莫俊傑介紹" width="884" height="1204"/>
+        <image name="謝芝齊介紹" width="558" height="756"/>
+        <image name="陳思源介紹" width="446" height="604"/>
+        <image name="陳韻如介紹" width="884" height="1198"/>
+        <image name="黃雨萱介紹" width="884" height="1196"/>
+    </resources>
+</document>

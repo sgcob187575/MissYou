@@ -7,11 +7,23 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
-    }
+        TabView{
+            EpisodeView().tabItem { VStack{Image(systemName: "list.bullet")
+            Text("EP")}
+            }
+            ActorView().tabItem { VStack{Image(systemName: "person.crop.rectangle")
+                Text("Actor")}
+            }
+            TextView().tabItem { VStack{Image(systemName: "square.and.pencil")
+                Text("Quiz")}
+            }
+
+        }.overlay(MusicBar().offset(x: 0, y: -49), alignment: .bottom)    }
 }
 
 struct ContentView_Previews: PreviewProvider {
